@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topicon{
+    display: flex;
+    margin-top: 7%;
+} 
+
+
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 26em;
+    height: 80px;
+    box-shadow: 0, 0, 3px rgba(0, 0, 0, 0, 2);
+    background-color: #FFFFFF;
+    /* overflow: auto; */
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+    border-color: black;
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    font-family: roboto;
+    font-size: 34px;
+}
+.image{
+    margin-left: 1000px;
+}
+
+.container{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 8px;
+    letter-spacing: 1.25px;
+    /* justify-items: center; */
+}
+.wallet{
+    margin-left: 100px;
+}
+
+hr{
+    border: 50px solid #000000
+}
+#account{
+    /* margin: 70px; */
+    /* padding: 50px; */
+    margin-top: 500px;
+}
+
+
+
+
+@media (min-width: 576px) {
+    #body{
+        justify-self: start;
+        max-height: 500px;
+    }
+
+    .nav{
+        display: block;
+    }
+}
+
+

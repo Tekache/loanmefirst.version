@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    /* color: black; */
+}
+
+
+/* .card{
+
+
+.card-bod{
+    display: flex;
+}
+
+.cta-section{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.cta-section .btn{
+    padding: 0.3em 0.5em;
+    background-color: aliceblue;
+    border-color: blue;
+} */
+
+ .topicon{
+    display: flex;
+    margin-top: 7%;
+} 
+
+.icon2{
+    margin-left: 100%;
+}
+
+.border{
+    height: 123px;
+    border-radius: 3%;
+    border-color: blue;
+}
+
+.lenders{
+    margin-left: 40px;
+}
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 26em;
+    height: 80px;
+    box-shadow: 0, 0, 3px rgba(0, 0, 0, 0, 2);
+    background-color: #FFFFFF;
+    /* overflow: auto; */
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+    border-color: black;
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    font-family: roboto;
+    font-size: 34px;
+}
+
